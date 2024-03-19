@@ -1,0 +1,25 @@
+{
+  "name": "agendamento-barber",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsnd --respawn src/index.ts",
+    "start": "node dist/src/index.js",
+    "build": "tsc"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.24",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@prisma/client": "5.11.0",
+    "cors": "^2.8.5",
+    "date-fns": "^3.3.1",
+    "express": "^4.18.3",
+    "prisma": "^5.11.0"
+  }
+}
